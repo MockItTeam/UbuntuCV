@@ -29,7 +29,7 @@ sudo apt-get -y install x264 v4l-utils ffmpeg
 sudo apt-get -y install libgtk2.0-dev
 echo "Downloading OpenCV 2.4.10"
 if ! [ -f "OpenCV-2.4.10.zip" ]; then
-  wget -O OpenCV-2.4.10.zip http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.10/opencv-2.4.10.zip/download
+  wget -O OpenCV-2.4.10.zip https://s3-us-west-2.amazonaws.com/cv-oregon-s3/OpenCV-2.4.10.zip
 fi
 echo "Installing OpenCV 2.4.10"
 if ! [ -d "opencv-2.4.10" ]; then
